@@ -1,0 +1,93 @@
+h1{
+    background-color: whitesmoke;
+    margin-top: 0px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+body{
+    background-color: grey;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border-radius: 50%;
+    margin: 25px;
+}
+#rock{
+    background-image: url(rock.webp);
+    background-size:contain;
+}
+#paper{
+    background-image: url(paper.webp);
+    background-size:contain;
+}
+#scissor{
+    background-image: url(scissors.webp);
+    background-size:contain;
+}
+.border:hover{
+    border: 3px solid black;
+    opacity: 0.5;
+    cursor: pointer;
+}
+#choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#scorecard{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+.comp{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+#user-score{
+    font-size: 40px;
+}
+#comp-score{
+    font-size: 40px;
+}
+#msg-container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    height: 60px;
+    width: 300px;
+    margin-left: 38vw;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.Name{
+    margin-right: 190px;
+    margin-left: 30px;
+}
